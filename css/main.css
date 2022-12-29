@@ -15,8 +15,7 @@ body{
 
 .container{
   width: 22.5rem;
-  border: 1px solid red;
-  margin: auto;
+  margin: 56px auto 0px;
 }
 
 .profile{
