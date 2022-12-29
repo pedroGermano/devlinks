@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   background: url('../img/bg-mobile-dark.png') no-repeat top center/cover;
 }
@@ -15,8 +21,15 @@ body{
 
 .profile{
   text-align: center;
+  padding: 1.5rem;
 }
 
 .profile img{
   width: 7rem;
+}
+
+.profile p{
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
 }
