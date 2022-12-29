@@ -1,3 +1,22 @@
 body{
   background: url('../img/bg-mobile-dark.png') no-repeat top center/cover;
 }
+
+body{
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+.container{
+  width: 22.5rem;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.profile{
+  text-align: center;
+}
+
+.profile img{
+  width: 7rem;
+}
