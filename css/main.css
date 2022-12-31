@@ -1,5 +1,6 @@
 :root{
   --text-color: #fff;
+  --bg-url: url(../img/bg-mobile-dark.png);
 }
 
 
@@ -9,14 +10,21 @@
   box-sizing: border-box;
 }
 
+.light {
+  --text-color: #000;
+  --bg-url: url(../img/bg-mobile-light.jpg);
+}
+
+
 body{
-  background: url('../img/bg-mobile-dark.png') no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body{
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
 }
+
 
 .container{
   width: 22.5rem;
