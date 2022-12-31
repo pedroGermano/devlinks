@@ -1,3 +1,8 @@
+:root{
+  --text-color: #fff;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -10,7 +15,7 @@ body{
 
 body{
   font-family: 'Inter', sans-serif;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .container{
@@ -52,14 +57,14 @@ ul li a{
   border-radius: 8px;
   backdrop-filter: blur(4px);
   font-weight: 500;
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   transition: background 0.2s;
 }
 
 ul li a:hover{
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #fff;
+  border: 1px solid var(--text-color);
 }
 
 .social-links{
@@ -70,7 +75,7 @@ ul li a:hover{
 }
 
 .social-links a{
-  color: #fff;
+  color: var(--text-color);
 }
 
 .social-links a{
@@ -98,5 +103,6 @@ footer{
 
 footer a {
   text-decoration: underline;
-  color: #fff;
+  color: var(--text-color);
+  font-size: 14px;
 }
