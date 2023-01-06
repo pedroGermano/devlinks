@@ -9,6 +9,6 @@ function toggleMode() {
     img.setAttribute('src', './img/profile-day.png')
     
   } else {
-    img.setAttribute('src', './img/profile.png')
+    img.setAttribute('src', './img/profile.png');
   }
 }
